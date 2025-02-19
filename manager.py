@@ -15,6 +15,6 @@ class Manager:
         self.notes = [note for note in self.notes if note.id != id]
 
     def show_all(self):
-        print("Все заметки:")
+        print("Все заметки: \n")
         for note in self.notes:
             print(note.toString())
