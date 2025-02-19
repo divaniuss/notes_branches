@@ -21,3 +21,6 @@ class Note:
 
     def setText(self, text):
         self.__text = text
+
+    def toString(self):
+        return f"Note (ID={self.__id}), {self.__title}: \n {self.__text}]"
